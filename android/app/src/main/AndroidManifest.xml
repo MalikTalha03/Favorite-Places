@@ -1,10 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <application
-    <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyDUGYOcaYWVV4p1Nwliw_1XcNMBVh2oW_U"/>
+    <application        
         android:label="favourite_place"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDUGYOcaYWVV4p1Nwliw_1XcNMBVh2oW_U"
+        />
         <activity
             android:name=".MainActivity"
             android:exported="true"
